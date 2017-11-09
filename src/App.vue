@@ -40,7 +40,7 @@
 export default {
   name: 'app',
   methods: {
-    toggleSideNavLeft(route) {
+    toggleSideNavLeft (route) {
       if (typeof (route) == 'object') {
         this.$refs.leftSidenav.toggle()
       } else {
