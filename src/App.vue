@@ -65,4 +65,10 @@ export default {
   .md-sidenav-content {
     z-index: 9999 !important;
   }
+  .md-list-item {
+    cursor: pointer;
+  }
+  .md-list-item:hover {
+    background: #dedede;
+  }
 </style>
