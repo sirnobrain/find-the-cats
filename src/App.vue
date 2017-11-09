@@ -45,6 +45,7 @@ export default {
         this.$refs.leftSidenav.toggle()
       } else {
         this.$router.push(route)
+        this.$refs.leftSidenav.toggle()
       }
     }
   }
