@@ -44,7 +44,6 @@ export default {
       if (typeof (route) === 'object') {
         this.$refs.leftSidenav.toggle()
       } else {
-        console.log('ROUTE', route)
         this.$router.push(route)
       }
     }
