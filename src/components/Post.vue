@@ -60,7 +60,7 @@ export default {
     postCat () {
       console.log('postCat ', this.randomCat)
       this.$db.ref('cats').push(this.randomCat, () => {
-        this.$router.push('/');
+        this.$router.push('/')
       })
     }
   },
